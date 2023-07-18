@@ -1,0 +1,102 @@
+html{
+    font-size:1rem;
+    color:black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+    background-color:lightblue;
+}
+fieldset{
+    width:300px;
+    margin:auto;
+    color: black
+}
+
+h1{
+    text-align:center;
+    color:grey;
+
+}
+legend{
+    color:blue;
+    font-size:1.5em;
+}
+
+button{
+    background-color:purple;
+    color:white;
+  
+}
+
+p{
+    font-size:0.6rem;
+    color:purple;
+}
+#preis{
+    font-size:1.5rem;
+    color:blue;
+    position:absolute;
+    top:70px;
+    right:270px;
+    background-color:lightblue;
+  
+ }
+ #buy{
+    font-size:1rem;
+    
+    position:absolute;
+    top:120px;
+    right:30px;
+
+ }
+ .step{
+     width:40px;
+ }
+ #zusammenfassung{
+    
+     border: 2px solid purple;
+    
+ }
+
+@media screen and (min-width:450px){
+    fieldset{
+        width:300px;
+        margin:auto;
+}
+#zusammenfassung{
+    width:300px; 
+    margin:auto;
+    margin-top: 10px;
+}
+}
+@media screen and (min-width:700px){
+    fieldset{
+        width:500px;
+        margin:auto;
+        margin-top: 10px;
+}
+#zusammenfassung{
+    margin:auto;
+    position: absolute;
+    margin: 100px;
+    top:50px;
+    right:0px;
+    width:200px;
+}
+}
+@media screen and (min-width : 1224px){
+    fieldset{
+       width: 700px;
+        margin:auto;
+        background-color:lightpink;
+       
+        
+}
+#zusammenfassung{
+    
+    margin:auto;
+    position: absolute;
+    margin: 100px;
+    top:50px;
+    right:10px;
+    width:200px;
+}
+}
